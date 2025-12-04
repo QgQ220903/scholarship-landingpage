@@ -1,0 +1,12 @@
+@import "tailwindcss";
+/* Thêm vào index.css */
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap");
+
+/* Hoặc nếu muốn viết thẳng Tailwind class */
+.font-heading {
+  font-family: "Playfair Display", serif;
+}
+
+.font-body {
+  font-family: "Inter", sans-serif;
+}
