@@ -1,6 +1,6 @@
 // src/components/Hero.jsx
 import React from 'react';
-import heroContent from '../../content/hero.json'
+import heroContent from '../content/hero.json'
 
 export default function HeroModern() {
   return (

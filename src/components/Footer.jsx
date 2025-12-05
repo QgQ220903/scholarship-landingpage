@@ -1,6 +1,6 @@
 // src/components/Footer.jsx
 import React from 'react';
-import footerContent from '../../content/footer.json';
+import footerContent from '../content/footer.json';
 
 function Footer() {
   const {

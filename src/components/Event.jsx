@@ -1,6 +1,6 @@
 // src/components/Event.jsx
 import React from 'react';
-import eventContent from '../../content/event.json';
+import eventContent from '../content/event.json';
 
 function Event() {
   const { section, header, content, highlightCard, styles } = eventContent;

@@ -1,6 +1,6 @@
 // src/components/Timeline.jsx
 import React from 'react';
-import timelineContent from '../../content/timeline.json';
+import timelineContent from '../content/timeline.json';
 
 function Timeline() {
   const { section, header, timelineItems, styles } = timelineContent;

@@ -1,6 +1,6 @@
 // src/components/Scholarships.jsx
 import React from 'react';
-import scholarshipsContent from '../../content/scholarships.json';
+import scholarshipsContent from '../content/scholarships.json';
 
 function Scholarships() {
   const { section, header, scholarships, styles } = scholarshipsContent;

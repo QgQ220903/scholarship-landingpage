@@ -1,6 +1,6 @@
 // src/components/AlumniCarousel.jsx
 import React, { useState, useEffect } from 'react';
-import carouselContent from '../../content/alumni-carousel.json';
+import carouselContent from '../content/alumni-carousel.json';
 
 function AlumniCarousel() {
   const { section, header, carousel, alumni, styles } = carouselContent;

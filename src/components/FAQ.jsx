@@ -1,6 +1,6 @@
 // src/components/FAQ.jsx
 import React, { useState } from 'react';
-import faqContent from '../../content/faq.json';
+import faqContent from '../content/faq.json';
 
 function FAQ() {
   const [activeIndex, setActiveIndex] = useState(null);

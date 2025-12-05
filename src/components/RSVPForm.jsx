@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import formConfig from '../../content/rsvp-form.json'; // Import file JSON
+import formConfig from '../content/rsvp-form.json'; // Import file JSON
 
 function RSVPForm() {
   // Destructure config từ file JSON
@@ -241,8 +241,8 @@ function RSVPForm() {
           {/* Status Message */}
           {submitStatus.message && (
             <div className={`mb-6 p-4 rounded-lg border-2 ${submitStatus.type === 'success'
-                ? 'bg-green-50 text-green-700 border-green-200'
-                : 'bg-red-50 text-red-700 border-red-200'
+              ? 'bg-green-50 text-green-700 border-green-200'
+              : 'bg-red-50 text-red-700 border-red-200'
               }`}>
               <div className="flex items-start">
                 <span className="mr-2 text-xl">
