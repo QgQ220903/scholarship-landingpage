@@ -1,0 +1,87 @@
+{
+  "section": {
+    "id": "dang-ky",
+    "className": "py-16 md:py-20"
+  },
+  "header": {
+    "title": "Đăng ký tham dự sự kiện",
+    "description": "Vui lòng điền thông tin để đăng ký tham dự Gala kỷ niệm 30 năm học bổng",
+    "divider": {
+      "className": "w-20 h-1 bg-[#d4af37] mx-auto mt-5 rounded"
+    }
+  },
+  "form": {
+    "successMessage": "Cảm ơn {{name}} đã đăng ký! Email xác nhận đã được gửi đến bạn.",
+    "errorMessage": "Có lỗi xảy ra, vui lòng thử lại sau.",
+    "fields": {
+      "fullName": {
+        "label": "Họ và tên *",
+        "placeholder": "",
+        "type": "text",
+        "required": true,
+        "icon": "fas fa-user"
+      },
+      "email": {
+        "label": "Email *",
+        "placeholder": "",
+        "type": "email",
+        "required": true,
+        "icon": "fas fa-envelope"
+      },
+      "phone": {
+        "label": "Số điện thoại *",
+        "placeholder": "",
+        "type": "tel",
+        "required": true,
+        "icon": "fas fa-phone"
+      },
+      "year": {
+        "label": "Khóa tốt nghiệp / Năm học",
+        "placeholder": "Ví dụ: K2008, SV năm 3",
+        "type": "text",
+        "required": false,
+        "icon": "fas fa-graduation-cap"
+      },
+      "scholarshipType": {
+        "label": "Loại học bổng đã nhận (nếu có)",
+        "type": "select",
+        "required": false,
+        "icon": "fas fa-award",
+        "options": [
+          { "value": "", "label": "Chọn loại học bổng" },
+          { "value": "khuyenhoc", "label": "Học bổng khuyến học" },
+          { "value": "tainang", "label": "Học bổng tài năng" },
+          { "value": "quocte", "label": "Học bổng quốc tế" },
+          { "value": "khac", "label": "Khác" }
+        ]
+      },
+      "guestCount": {
+        "label": "Số lượng khách tham dự *",
+        "type": "select",
+        "required": true,
+        "icon": "fas fa-users",
+        "options": [
+          { "value": "1", "label": "1 người (chỉ bản thân)" },
+          { "value": "2", "label": "2 người" },
+          { "value": "3", "label": "3 người" },
+          { "value": "4", "label": "4 người" },
+          { "value": "5", "label": "5 người trở lên" }
+        ]
+      },
+      "message": {
+        "label": "Lời nhắn (nếu có)",
+        "placeholder": "Lời nhắn đến ban tổ chức...",
+        "type": "textarea",
+        "required": false,
+        "icon": "fas fa-comment",
+        "rows": 4
+      }
+    },
+    "submitButton": {
+      "text": "Gửi đăng ký tham dự",
+      "className": "w-full py-4 px-8 bg-[#d4af37] text-[#1a365d] font-semibold rounded-lg hover:bg-[#2d4a8a] hover:text-white transition-colors text-lg"
+    },
+    "privacyText": "Thông tin của bạn sẽ được bảo mật và chỉ sử dụng cho mục đích tổ chức sự kiện."
+  },
+  "webAppUrl": "YOUR_GOOGLE_APPS_SCRIPT_URL_HERE"
+}

@@ -1,0 +1,112 @@
+{
+  "footer": {
+    "className": "bg-[#1a365d] text-white pt-16 pb-8"
+  },
+  "logo": {
+    "icon": "fas fa-graduation-cap",
+    "iconClass": "text-3xl text-[#d4af37]",
+    "text": "Học bổng 30 năm",
+    "textClass": "font-bold text-2xl"
+  },
+  "description": "Hành trình 30 năm trao tri thức, ươm mầm tài năng và lan tỏa giá trị nhân văn qua các chương trình học bổng của trường.",
+  "socialLinks": [
+    {
+      "platform": "Facebook",
+      "icon": "fab fa-facebook-f",
+      "url": "#",
+      "className": "w-10 h-10 bg-white/10 rounded-full flex items-center justify-center hover:bg-[#d4af37]"
+    },
+    {
+      "platform": "YouTube",
+      "icon": "fab fa-youtube",
+      "url": "#",
+      "className": "w-10 h-10 bg-white/10 rounded-full flex items-center justify-center hover:bg-[#d4af37]"
+    },
+    {
+      "platform": "LinkedIn",
+      "icon": "fab fa-linkedin-in",
+      "url": "#",
+      "className": "w-10 h-10 bg-white/10 rounded-full flex items-center justify-center hover:bg-[#d4af37]"
+    }
+  ],
+  "quickLinks": {
+    "title": "Liên kết nhanh",
+    "titleClass": "text-xl font-semibold mb-6",
+    "links": [
+      {
+        "text": "Lịch sử học bổng",
+        "url": "#lich-su-hoc-bong",
+        "className": "text-gray-300 hover:text-[#d4af37] hover:pl-2 transition-all"
+      },
+      {
+        "text": "Danh mục học bổng",
+        "url": "#danh-muc-hoc-bong",
+        "className": "text-gray-300 hover:text-[#d4af37] hover:pl-2 transition-all"
+      },
+      {
+        "text": "Gương mặt tiêu biểu",
+        "url": "#guong-mat-tieu-bieu",
+        "className": "text-gray-300 hover:text-[#d4af37] hover:pl-2 transition-all"
+      },
+      {
+        "text": "Sự kiện 30 năm",
+        "url": "#su-kien-30-nam",
+        "className": "text-gray-300 hover:text-[#d4af37] hover:pl-2 transition-all"
+      },
+      {
+        "text": "Câu hỏi thường gặp",
+        "url": "#cau-hoi-thuong-gap",
+        "className": "text-gray-300 hover:text-[#d4af37] hover:pl-2 transition-all"
+      }
+    ]
+  },
+  "contactInfo": {
+    "title": "Liên hệ",
+    "titleClass": "text-xl font-semibold mb-6",
+    "items": [
+      {
+        "icon": "fas fa-map-marker-alt",
+        "iconClass": "text-[#d4af37] mt-1 mr-3",
+        "lines": ["123 Đường ABC, Quận XYZ", "Thành phố Hồ Chí Minh, Việt Nam"]
+      },
+      {
+        "icon": "fas fa-phone",
+        "iconClass": "text-[#d4af37] mt-1 mr-3",
+        "lines": ["(+84) 28 1234 5678"]
+      },
+      {
+        "icon": "fas fa-envelope",
+        "iconClass": "text-[#d4af37] mt-1 mr-3",
+        "lines": ["hocbong30nam@university.edu.vn"]
+      }
+    ]
+  },
+  "copyright": {
+    "year": "2024",
+    "text": "Trường Đại học. Tất cả các quyền được bảo lưu.",
+    "className": "text-center text-gray-400 text-sm"
+  },
+  "legalLinks": [
+    {
+      "text": "Chính sách bảo mật",
+      "url": "#",
+      "className": "hover:text-[#d4af37] mr-4"
+    },
+    {
+      "text": "Điều khoản sử dụng",
+      "url": "#",
+      "className": "hover:text-[#d4af37] ml-4"
+    }
+  ],
+  "styles": {
+    "containerClass": "max-w-6xl mx-auto px-4",
+    "gridClass": "grid grid-cols-1 md:grid-cols-3 gap-10 mb-12",
+    "columnClass": "",
+    "socialContainerClass": "flex space-x-4",
+    "quickLinksListClass": "space-y-3",
+    "contactContainerClass": "space-y-5",
+    "contactItemClass": "flex items-start",
+    "copyrightSectionClass": "pt-8 border-t border-white/10 text-center",
+    "legalLinksContainerClass": "mt-2"
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "section": {
+    "id": "hoc-bong",
+    "className": "py-16 md:py-20"
+  },
+  "header": {
+    "title": "Danh mục học bổng",
+    "description": "Các chương trình học bổng đa dạng đang được triển khai tại trường",
+    "divider": {
+      "className": "w-20 h-1 bg-[#d4af37] mx-auto mt-5 rounded"
+    }
+  },
+  "scholarships": [
+    {
+      "icon": "fas fa-hand-holding-heart",
+      "title": "Học bổng khuyến học",
+      "description": "Dành cho sinh viên có hoàn cảnh khó khăn, thể hiện ý chí vươn lên trong học tập và cuộc sống.",
+      "button": {
+        "text": "Tìm hiểu thêm",
+        "link": "#",
+        "className": "inline-block px-6 py-2 bg-[#d4af37] text-[#1a365d] font-semibold rounded-lg hover:bg-[#2d4a8a] hover:text-white transition-colors"
+      }
+    },
+    {
+      "icon": "fas fa-award",
+      "title": "Học bổng tài năng",
+      "description": "Trao tặng cho sinh viên có thành tích học tập xuất sắc, nghiên cứu khoa học và tài năng đặc biệt.",
+      "button": {
+        "text": "Tìm hiểu thêm",
+        "link": "#",
+        "className": "inline-block px-6 py-2 bg-[#d4af37] text-[#1a365d] font-semibold rounded-lg hover:bg-[#2d4a8a] hover:text-white transition-colors"
+      }
+    },
+    {
+      "icon": "fas fa-globe-americas",
+      "title": "Học bổng quốc tế",
+      "description": "Hỗ trợ sinh viên trao đổi tại nước ngoài và sinh viên quốc tế đến học tập tại trường.",
+      "button": {
+        "text": "Tìm hiểu thêm",
+        "link": "#",
+        "className": "inline-block px-6 py-2 bg-[#d4af37] text-[#1a365d] font-semibold rounded-lg hover:bg-[#2d4a8a] hover:text-white transition-colors"
+      }
+    }
+  ],
+  "styles": {
+    "containerClass": "max-w-6xl mx-auto px-4",
+    "headerClass": "text-center mb-12 md:mb-16",
+    "titleClass": "text-3xl md:text-4xl font-bold text-[#1a365d] mb-4",
+    "descriptionClass": "text-gray-600 max-w-2xl mx-auto text-lg",
+    "gridClass": "grid grid-cols-1 md:grid-cols-3 gap-8",
+    "card": {
+      "containerClass": "bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-xl transition-all duration-300 hover:-translate-y-2",
+      "iconSectionClass": "bg-[#1a365d] text-white p-8 text-center",
+      "iconClass": "text-4xl",
+      "contentClass": "p-6",
+      "titleClass": "text-xl font-semibold text-[#1a365d] mb-4",
+      "descriptionClass": "text-gray-600 mb-6"
+    }
+  }
+}

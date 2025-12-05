@@ -1,59 +1,74 @@
+// src/components/Event.jsx
 import React from 'react';
+import eventContent from '../../content/event.json';
 
 function Event() {
-  const eventDetails = [
-    { icon: 'far fa-calendar-alt', title: 'Thời gian', details: '18:00, Thứ Bảy, ngày 15 tháng 12 năm 2024' },
-    { icon: 'fas fa-map-marker-alt', title: 'Địa điểm', details: 'Hội trường lớn - Trường Đại học, 123 Đường ABC, Thành phố' },
-    { icon: 'fas fa-users', title: 'Khách mời', details: 'Cựu sinh viên, sinh viên hiện tại, nhà tài trợ, đối tác, báo chí' }
-  ];
+  const { section, header, content, highlightCard, styles } = eventContent;
 
   return (
-    <section id="su-kien" className="py-16 md:py-20">
-      <div className="max-w-6xl mx-auto px-4">
-        <div className="text-center mb-12 md:mb-16">
-          <h2 className="text-3xl md:text-4xl   font-bold text-[#1a365d] mb-4">
-            Sự kiện kỷ niệm 30 năm
+    <section id={section.id} className={section.className}>
+      <div className={styles.containerClass}>
+        {/* Header */}
+        <div className={styles.headerClass}>
+          <h2 className={styles.titleClass}>
+            {header.title}
           </h2>
-          <p className="text-gray-600 max-w-2xl mx-auto text-lg">
-            Tham gia sự kiện đặc biệt kỷ niệm 30 năm hành trình học bổng của trường
+          <p className={styles.descriptionClass}>
+            {header.description}
           </p>
-          <div className="w-20 h-1 bg-[#d4af37] mx-auto mt-5 rounded"></div>
+          <div className={header.divider.className}></div>
         </div>
 
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+        {/* Content Grid */}
+        <div className={styles.gridClass}>
+          {/* Left Column - Event Details */}
           <div>
-            <h2 className="text-3xl md:text-4xl   font-bold text-[#1a365d] mb-6">
-              Gala kỷ niệm 30 năm học bổng
+            <h2 className={styles.contentTitleClass}>
+              {content.title}
             </h2>
-            <p className="text-gray-600 mb-8 text-lg">
-              Một sự kiện đặc biệt quy tụ các thế cựu sinh viên, sinh viên hiện tại, nhà tài trợ và đối tác cùng nhìn lại hành trình ý nghĩa 30 năm qua.
+            <p className={styles.contentDescriptionClass}>
+              {content.description}
             </p>
 
-            <div className="space-y-6 mb-8">
-              {eventDetails.map((detail, index) => (
-                <div key={index} className="flex items-start">
-                  <div className="bg-[#f4e9c9] text-[#1a365d] w-12 h-12 rounded-full flex items-center justify-center mr-4 flex-shrink-0">
-                    <i className={`${detail.icon} text-lg`}></i>
+            {/* Event Details List */}
+            <div className={styles.detailsContainerClass}>
+              {content.eventDetails.map((detail, index) => (
+                <div key={index} className={styles.detailItem.containerClass}>
+                  <div className={styles.detailItem.iconContainerClass}>
+                    <i className={`${detail.icon} ${styles.detailItem.iconClass}`}></i>
                   </div>
-                  <div>
-                    <h4 className="font-semibold text-[#1a365d] mb-1">{detail.title}</h4>
-                    <p className="text-gray-600">{detail.details}</p>
+                  <div className={styles.detailItem.contentClass}>
+                    <h4 className={styles.detailItem.titleClass}>
+                      {detail.title}
+                    </h4>
+                    <p className={styles.detailItem.detailsClass}>
+                      {detail.details}
+                    </p>
                   </div>
                 </div>
               ))}
             </div>
 
-            <a href="#dang-ky" className="inline-block px-8 py-3 bg-[#d4af37] text-[#1a365d] font-semibold rounded-lg hover:bg-[#2d4a8a] hover:text-white transition-colors">
-              Đăng ký tham dự ngay
+            {/* CTA Button */}
+            <a
+              href={content.cta.link}
+              className={content.cta.className}
+            >
+              {content.cta.text}
             </a>
           </div>
 
-          <div className="bg-[#f4e9c9] rounded-2xl p-8 md:p-12 text-center">
+          {/* Right Column - Highlight Card */}
+          <div className={highlightCard.className}>
             <div className="mb-6">
-              <i className="fas fa-calendar-check text-6xl text-[#d4af37] mb-4"></i>
+              <i className={`${highlightCard.icon} ${highlightCard.iconSize} ${highlightCard.iconColor} mb-4`}></i>
             </div>
-            <h3 className="text-2xl   font-bold text-[#1a365d] mb-4">Gala 30 năm học bổng</h3>
-            <p className="text-gray-600">Một đêm tri ân và kết nối đặc biệt</p>
+            <h3 className={highlightCard.titleClass}>
+              {highlightCard.title}
+            </h3>
+            <p className={highlightCard.descriptionClass}>
+              {highlightCard.description}
+            </p>
           </div>
         </div>
       </div>

@@ -1,0 +1,67 @@
+{
+  "section": {
+    "id": "su-kien",
+    "className": "py-16 md:py-20"
+  },
+  "header": {
+    "title": "Sự kiện kỷ niệm 30 năm",
+    "description": "Tham gia sự kiện đặc biệt kỷ niệm 30 năm hành trình học bổng của trường",
+    "divider": {
+      "className": "w-20 h-1 bg-[#d4af37] mx-auto mt-5 rounded"
+    }
+  },
+  "content": {
+    "title": "Gala kỷ niệm 30 năm học bổng",
+    "description": "Một sự kiện đặc biệt quy tụ các thế cựu sinh viên, sinh viên hiện tại, nhà tài trợ và đối tác cùng nhìn lại hành trình ý nghĩa 30 năm qua.",
+    "eventDetails": [
+      {
+        "icon": "far fa-calendar-alt",
+        "title": "Thời gian",
+        "details": "18:00, Thứ Bảy, ngày 15 tháng 12 năm 2024"
+      },
+      {
+        "icon": "fas fa-map-marker-alt",
+        "title": "Địa điểm",
+        "details": "Hội trường lớn - Trường Đại học, 123 Đường ABC, Thành phố"
+      },
+      {
+        "icon": "fas fa-users",
+        "title": "Khách mời",
+        "details": "Cựu sinh viên, sinh viên hiện tại, nhà tài trợ, đối tác, báo chí"
+      }
+    ],
+    "cta": {
+      "text": "Đăng ký tham dự ngay",
+      "link": "#dang-ky",
+      "className": "inline-block px-8 py-3 bg-[#d4af37] text-[#1a365d] font-semibold rounded-lg hover:bg-[#2d4a8a] hover:text-white transition-colors"
+    }
+  },
+  "highlightCard": {
+    "className": "bg-[#f4e9c9] rounded-2xl p-8 md:p-12 text-center",
+    "icon": "fas fa-calendar-check",
+    "iconSize": "text-6xl",
+    "iconColor": "text-[#d4af37]",
+    "title": "Gala 30 năm học bổng",
+    "titleClass": "text-2xl font-bold text-[#1a365d] mb-4",
+    "description": "Một đêm tri ân và kết nối đặc biệt",
+    "descriptionClass": "text-gray-600"
+  },
+  "styles": {
+    "containerClass": "max-w-6xl mx-auto px-4",
+    "headerClass": "text-center mb-12 md:mb-16",
+    "titleClass": "text-3xl md:text-4xl font-bold text-[#1a365d] mb-4",
+    "descriptionClass": "text-gray-600 max-w-2xl mx-auto text-lg",
+    "gridClass": "grid grid-cols-1 lg:grid-cols-2 gap-12 items-center",
+    "contentTitleClass": "text-3xl md:text-4xl font-bold text-[#1a365d] mb-6",
+    "contentDescriptionClass": "text-gray-600 mb-8 text-lg",
+    "detailsContainerClass": "space-y-6 mb-8",
+    "detailItem": {
+      "containerClass": "flex items-start",
+      "iconContainerClass": "bg-[#f4e9c9] text-[#1a365d] w-12 h-12 rounded-full flex items-center justify-center mr-4 flex-shrink-0",
+      "iconClass": "text-lg",
+      "contentClass": "",
+      "titleClass": "font-semibold text-[#1a365d] mb-1",
+      "detailsClass": "text-gray-600"
+    }
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "logo": {
+    "icon": "fas fa-graduation-cap",
+    "iconClass": "text-2xl text-[#d4af37]",
+    "text": "Học bổng 30 năm",
+    "textClass": "font-bold text-xl text-[#1a365d]",
+    "link": "/"
+  },
+  "menuItems": [
+    {
+      "label": "Lịch sử",
+      "link": "#lich-su",
+      "icon": ""
+    },
+    {
+      "label": "Học bổng",
+      "link": "#hoc-bong",
+      "icon": ""
+    },
+    {
+      "label": "Gương mặt tiêu biểu",
+      "link": "#guong-mat-tieu-bieu",
+      "icon": ""
+    },
+    {
+      "label": "Sự kiện",
+      "link": "#su-kien",
+      "icon": ""
+    },
+    {
+      "label": "Đăng ký",
+      "link": "#dang-ky",
+      "icon": ""
+    },
+    {
+      "label": "FAQ",
+      "link": "#faq",
+      "icon": ""
+    }
+  ],
+  "mobileMenuIcon": {
+    "open": "fas fa-times",
+    "closed": "fas fa-bars",
+    "class": "text-[#1a365d] text-xl"
+  },
+  "styles": {
+    "headerClass": "fixed top-0 left-0 right-0 bg-white shadow-sm z-50",
+    "containerClass": "max-w-6xl mx-auto px-4 py-5",
+    "navClass": "text-[#1a365d] font-medium hover:text-[#d4af37] transition-colors duration-300 py-2 md:py-0",
+    "mobileMenuClass": "absolute md:relative top-full left-0 right-0 bg-white md:bg-transparent shadow-lg md:shadow-none p-6 md:p-0"
+  }
+}
